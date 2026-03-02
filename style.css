@@ -57,12 +57,12 @@
 }
 
 
-.m-thin         { font-family: 'MontserratThin', sans-serif; }
-.m-elight         { font-family: 'MontserratExtraLight', sans-serif; }
-.m-light         { font-family: 'MontserratLight', sans-serif; }
-.m-regular      { font-family: 'MontserratRegular', sans-serif; }
-.m-bold         { font-family: 'MontserratBold', sans-serif; }
-.m-ebold    { font-family: 'MontserratExtraBold', sans-serif; }
+.m-thin    { font-family: 'MontserratThin', sans-serif; }
+.m-elight  { font-family: 'MontserratExtraLight', sans-serif; }
+.m-light   { font-family: 'MontserratLight', sans-serif; }
+.m-regular { font-family: 'MontserratRegular', sans-serif; }
+.m-bold    { font-family: 'MontserratBold', sans-serif; }
+.m-ebold   { font-family: 'MontserratExtraBold', sans-serif; }
 
 body { background: var(--bg); color: var(--text); line-height: 1.6; }
 
@@ -95,8 +95,8 @@ section {
 
 h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border); padding-bottom: 10px; }
 
-.projects,
-.socials {
+.administration,
+.how-to-contact-us {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
@@ -181,8 +181,8 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
     font-size: 1.6rem;
   }
 
-  .projects,
-  .socials {
+  .administration,
+  .how-to-contact-us {
     gap: 16px;
   }
 
@@ -221,8 +221,8 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
     font-size: 1.4rem;
   }
 
-  .projects,
-  .socials {
+  .administration,
+  .how-to-contact-us {
     grid-template-columns: 1fr;
   }
 
@@ -244,3 +244,4 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
   color: var(--muted);
   opacity: 0.8;
 }
+
