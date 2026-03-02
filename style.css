@@ -95,8 +95,8 @@ section {
 
 h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border); padding-bottom: 10px; }
 
-.administration,
-.how-to-contact-us {
+.projects,
+.socials {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
@@ -181,8 +181,8 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
     font-size: 1.6rem;
   }
 
-  .administration,
-  .how-to-contact-us {
+  .projects,
+  .socials {
     gap: 16px;
   }
 
@@ -221,8 +221,8 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
     font-size: 1.4rem;
   }
 
-  .administration,
-  .how-to-contact-us {
+  .projects,
+  .socials {
     grid-template-columns: 1fr;
   }
 
@@ -244,4 +244,3 @@ h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid var(--border
   color: var(--muted);
   opacity: 0.8;
 }
-
